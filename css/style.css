@@ -9,7 +9,7 @@
   --green-dark: #1a5c2a;
   --green: #2d7a3a;
   --green-light: #e8f5e9;
-  --orange: #f58220;
+  --orange: #e85520;
   --orange-light: #fff3e0;
   --white: #ffffff;
   --gray-light: #f9f9f9;
@@ -76,6 +76,7 @@ nav {
 .nav-logo img {
   height: 55px;
   width: auto;
+  border-radius: 50%;
 }
 
 .nav-links {
@@ -122,7 +123,7 @@ nav {
 }
 
 .nav-cta:hover {
-  background: #e0741a;
+  background: #c94415;
   transform: translateY(-1px);
 }
 
@@ -182,6 +183,7 @@ nav {
   width: 280px;
   margin: 0 auto 32px;
   animation: fadeInUp 0.8s ease-out;
+  border-radius: 50%;
 }
 
 .hero h1 {
@@ -227,7 +229,7 @@ nav {
 }
 
 .btn-primary:hover {
-  background: #e0741a;
+  background: #c94415;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(245, 130, 32, 0.35);
 }
@@ -502,6 +504,7 @@ footer .footer-logo img {
   height: 50px;
   margin: 0 auto 12px;
   filter: brightness(1.2);
+  border-radius: 50%;
 }
 
 footer p {
